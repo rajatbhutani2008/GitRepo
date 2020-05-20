@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="frontPage.menuBarAbout"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="frontPage.menuBarContactUs"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test3">
+		<classes>
+			<class name="frontPage.menuBarGalerry"></class>
+		</classes>
+	</test>
+	<test thread-count="5" name="Test4">
+		<classes>
+			<class name="frontPage.Programs"></class>
+		</classes>
+	</test>
+	<test name="Test5">
+	<classes>
+	<class name="functionalitiesTest.contactUsform"></class>
+	</classes>
+	</test>
+	<test name="Test6">
+	<classes>
+	<class name="functionalitiesTest.honePageData"></class>
+	</classes>
+	</test>
+	<test name="Test7">
+	<classes>
+	<class name="functionalitiesTest.contentAbout"></class>
+	</classes>
+	</test>
+	 <!-- Test -->
+	<!-- <test name="Test case 2"> <classes> <class name="com.qa.main.WebDriverEnd"></class> 
+		</classes> </test> -->
+</suite> <!-- Suite -->
